@@ -1,8 +1,8 @@
 import express from "express";
 import dotenv from "dotenv";
-import connectDB from "./src/database/index.js";
-import productRouter from "./src/routes/product.routes.js"
-import orderRouter from "./src/routes/orders.routes.js"
+import connectDB from "./database/index.js";
+import productRouter from "./routes/product.routes.js"
+import orderRouter from "./routes/orders.routes.js"
 
 dotenv.config({
   path: "./.env",
